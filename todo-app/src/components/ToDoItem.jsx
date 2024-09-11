@@ -1,28 +1,3 @@
-// // src/components/ToDoItem.jsx
-// import React from 'react';
-
-// const ToDoItem = ({ task, toggleTaskCompletion, removeTask }) => {
-//   return (
-//     <li className="flex justify-between items-center bg-white p-2 mb-2 border rounded">
-//       <span
-//         onClick={() => toggleTaskCompletion(task.id)}
-//         className={`cursor-pointer ${task.completed ? 'line-through' : ''}`}
-//       >
-//         {task.text}
-//       </span>
-//       <button
-//         onClick={() => removeTask(task.id)}
-//         className="bg-red-500 text-white p-1 ml-3"
-//       >
-//         Delete
-//       </button>
-//     </li>
-//   );
-// };
-
-// export default ToDoItem;
-
-// src/components/ToDoItem.jsx
 import React from 'react';
 
 function ToDoItem({ task, toggleTaskCompletion, removeTask }) {

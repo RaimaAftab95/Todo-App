@@ -1,36 +1,3 @@
-// src/components/ToDoInput.jsx
-// import React, { useState } from 'react';
-
-// const ToDoInput = ({ addTask }) => {
-//   const [inputValue, setInputValue] = useState('');
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     if (inputValue.trim()) {
-//       addTask(inputValue);
-//       setInputValue('');
-//     }
-//   };
-
-//   return (
-//     <form onSubmit={handleSubmit} className="mb-5">
-//       <input
-//         type="text"
-//         value={inputValue}
-//         onChange={(e) => setInputValue(e.target.value)}
-//         className="border p-2 mr-2"
-//         placeholder="Enter a new task"
-//       />
-//       <button type="submit" className="bg-blue-500 text-white p-2">Add</button>
-//     </form>
-//   );
-// };
-
-// export default ToDoInput;
-
-
-
-// src/components/ToDoInput.jsx
 import React, { useState } from 'react';
 
 function ToDoInput({ addTask }) {
